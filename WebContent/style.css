@@ -25,7 +25,8 @@ footer{
 table {
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  font-size: 10px;
 }
 
 th, td {
@@ -120,4 +121,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 	
 }
+.myformLeft{
+	text-align: right;
+	padding-right: 15px;
+	border-right: 2px solid green;
+}
+.myformRight{
+	text-align: left;
+	padding-right: 15px;
 }

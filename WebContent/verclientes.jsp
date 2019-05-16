@@ -29,7 +29,7 @@ try {
 <div class="container">
 
 <% 
-String query="select nombre, apellidos, email, nTelf, DNI from clientes";
+String query="select nombre, apellidos, email, nTelf, DNI from clientes order by apellidos";
 beanDB basededatos = new beanDB();
 String [][] tablares = basededatos.resConsultaSelectA3(query);
 %> 

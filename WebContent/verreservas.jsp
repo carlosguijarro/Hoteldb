@@ -29,7 +29,7 @@ try {
 <div class="container">
 
 <% 
-String query="SELECT c.nombre, c.apellidos, r.idHabitacion, r.fechaentrada, r.fechaSalida FROM reservas r JOIN clientes c ON (r.idCliente = c.idCliente)";
+String query="SELECT c.nombre, c.apellidos, r.idHabitacion, r.fechaentrada, r.fechaSalida FROM reservas r JOIN clientes c ON (r.idCliente = c.idCliente) ORDER BY r.fechaEntrada";
 beanDB basededatos = new beanDB();
 String [][] tablares = basededatos.resConsultaSelectA3(query);
 %> 

@@ -28,6 +28,7 @@ try {
 </header>
 <br/>
 <div class="container">
+<h4 class="centered">Tablas:</h4>
 <div class="tableList">
 <a class="selectTable" href="verclientes.jsp">CLIENTES</a>
 <a class="selectTable" href="verhabitaciones.jsp">HABITACIONES</a>
@@ -38,6 +39,14 @@ try {
 <h4 class="centered">Consultas:</h4>
 <div class="tableList">
 <a class="selectTable" href="verinquilinos.jsp">INQUILINOS ACTUALES</a>
+</div>
+<h4 class="centered">Informe con selector:</h4>
+<div class="tableList">
+<a class="selectTable" href="informeConSelector.jsp">IR A SELECTOR</a>
+</div>
+<h4 class="centered">Inserción de datos:</h4>
+<div class="tableList">
+<a class="selectTable" href="nuevoCliente.jsp">AÑADIR CLIENTE</a>
 </div>
 </div>
 <footer>Carlos Guijarro Villegas</footer>
