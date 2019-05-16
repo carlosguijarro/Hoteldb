@@ -29,7 +29,7 @@ try {
 <div class="container">
 
 <% 
-String query="select nombre, apellidos, email, nTelf, DNI from clientes order by apellidos";
+String query="select nombre, apellidos, email, nTelf, DNI, idCliente from clientes order by apellidos";
 beanDB basededatos = new beanDB();
 String [][] tablares = basededatos.resConsultaSelectA3(query);
 %> 
@@ -44,6 +44,7 @@ String [][] tablares = basededatos.resConsultaSelectA3(query);
 	 <td> <%=tablares[i][2] %> </td>
 	 <td> <%=tablares[i][3] %> </td>
 	 <td> <%=tablares[i][4] %> </td>
+	 <td><a href="updateCliente.jsp?idc=<%=tablares[i][5] %>">Editar</a></td>
 	 </tr> <% 
 }
 %>
