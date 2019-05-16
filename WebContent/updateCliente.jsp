@@ -10,6 +10,7 @@ try {
 	response.sendRedirect("cerrarsesion.jsp");
 }
 %>
+
 <html>
 <head>
 <title>HOTEL DATABASE - Inicio</title>
