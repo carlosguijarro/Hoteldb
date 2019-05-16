@@ -4,6 +4,7 @@
 <%@page import="mipk.beanDB"%>
 <%@page import="objetoscrm.*"%>
 <%
+
 try {
 	String aux=session.getAttribute("usuario").toString();
 } catch (Exception e) {
